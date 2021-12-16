@@ -1,0 +1,14 @@
+AAA :
+	Arrange - Construção do objeto da classe
+	Act - Chamada do metodo a ser testado
+	Assert - Verificação do resultado esperado
+
+Nomenclatura de testes de unidade:
+
+1 - objetoEmTeste_MetodoOuComportametoEmteste_ComportamentoEsperado
+ex: Pedido_AdicionarPedidoItem_DeveIncrementarUnidadesSeItemJaExistente
+Estoque_RetirarItem_DeveEnviarEmailSeAbaixoDe10Unidades
+
+2 - MetodoEmTeste_EstadoEmTeste_ComportamentoEsperado
+Ex: AdicionarPedidoItem_ItemExistenteCarrinho_DeveIncrementarUnidadesDoItem
+	RetirarEstoque_EstoqueAbaixoDe10Unidades_DeveEnviarEmailDeAviso
