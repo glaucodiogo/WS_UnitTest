@@ -10,8 +10,8 @@ using Xunit;
 
 namespace UnitTest.Fixture
 {
-    [CollectionDefinition(nameof(ClienteAutoMockerCollection))]
-    public class ClienteAutoMockerCollection : ICollectionFixture<ProjectServiceFixtureTests>
+    [CollectionDefinition(nameof(ProjectAutoMockerCollection))]
+    public class ProjectAutoMockerCollection : ICollectionFixture<ProjectServiceFixtureTests>
     {
     }
     public class ProjectServiceFixtureTests : IDisposable
